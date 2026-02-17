@@ -82,7 +82,7 @@ android-sdk/ -e
 *.env
 *.env.*
 
-# Design/Emergent
+# Config files
 .design/
 .gitconfig
 

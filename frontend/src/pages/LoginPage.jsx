@@ -14,7 +14,7 @@ const getAvatarUrl = (email) => {
 };
 
 // Background image
-const BACKGROUND_IMAGE = 'https://customer-assets.emergentagent.com/job_pro-login-portal/artifacts/lrnov8ts_02.png';
+const BACKGROUND_IMAGE = 'https://images.unsplash.com/photo-1557682250-33bd709cbe85?w=1920&q=80';
 
 // Animated overlay colors - will cycle through these
 const overlayThemes = [
