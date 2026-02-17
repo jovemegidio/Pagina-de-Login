@@ -1,0 +1,22 @@
+/* App specific styles - Using design tokens */
+.App {
+  min-height: 100vh;
+}
+
+/* Ensure smooth transitions don't break transforms */
+button,
+input,
+a {
+  transition-property: color, background-color, border-color, box-shadow, opacity;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Prevent layout shift */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px hsl(222 47% 10%) inset !important;
+  -webkit-text-fill-color: hsl(210 40% 98%) !important;
+  caret-color: hsl(210 40% 98%) !important;
+}
